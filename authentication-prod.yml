@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: authentication
+  datasource:
+    url: jdbc:mysql:http://mysql-db:3307
+    driver-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 1812
