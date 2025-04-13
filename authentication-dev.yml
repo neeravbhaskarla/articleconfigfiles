@@ -8,8 +8,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  config:
-    import: "configserver:http://config-server:8888"
 eureka:
   client:
     service-url:
