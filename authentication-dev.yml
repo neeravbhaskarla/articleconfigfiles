@@ -2,7 +2,7 @@ spring:
   application:
     name: authentication
   datasource:
-    url: jdbc:postgresql:http://postgresql-db:5432/authenticationdb
+    url: jdbc:postgresql://postgresql-db:5432/articledb
     driver-name: org.postgresql.Driver
   jpa:
     properties:
