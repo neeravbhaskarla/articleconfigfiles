@@ -3,7 +3,7 @@ spring:
     name: authentication
   datasource:
     url: jdbc:mysql://mysql-db:3307
-    driver-name: com.mysql.jdbc.Driver
+    driver-name: com.mysql.cj.jdbc.Driver
   jpa:
     properties:
       hibernate:
